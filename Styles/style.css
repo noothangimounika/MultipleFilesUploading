@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(250deg,rgb(170, 148, 162),rgb(231, 77, 77));
+}
+.box{
+    max-width: 500px;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    border-radius: 5px;
+}
+.upload-area-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.uploadlabel{
+    width: 100%;
+    min-height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px dotted rgb(43, 88, 105);
+    cursor: pointer;
+    text-align: center;
+   
+}
+.uploadlabel span {
+
+    font-size: 70px;
+    color: rgb(130, 207, 243);
+    transition: all 0.5s ease;
+    
+}
+.uploadlabel span:hover{
+    color: blue;
+    font-weight: bold;
+    
+}
+.uploadlabel p{
+    color:rgb(130, 207, 243) ;
+    font-size: 20px;
+    font-weight: 800px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   transition: all 0.5s ease;
+}
+.uploadlabel p:hover{
+    color: blue;
+    font-weight: bold;
+}
+.uploadded{
+     margin: 30px 0;
+     font-size: 16px;
+     font-weight: 600px;
+     color: rgb(155, 149, 149);
+}
+.showfilebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 15px;
+    box-shadow: 0 0 0 1px rgb(226, 223, 223);
+}
+.showfilebox .left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.filetype{
+    background-color: rgb(112, 176, 230);
+    color: white;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700px;
+    border-radius: 5px;
+}
+.left h3{
+    font-weight: 600px;
+    font-size: 18px;
+    color: rgb(65, 27, 53);
+    margin: 0;
+}
+.right{
+    background-color: rgb(231, 17, 45);
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: 600px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px ;
+    
+}

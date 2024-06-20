@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="box">
+
+            <div class="input-box">
+                <h2 class="upload-area-title">Upload File</h2>
+
+                <form action="#">
+
+                    <input type="file" id="upload" accept=".doc,.docx,.pdf" hidden>
+                    <label for="upload" class="uploadlabel">
+                    <span><ion-icon name="cloud-upload-outline"></ion-icon></span>
+                    <p>Click To Upload</p>
+
+                    </label>
+
+                </form>
+            </div>
+
+            <div class="filewrapper" id="filewrapper">
+
+                <h3 class="uploadded">Uploaded Documents</h3> 
+
+                <!-- <div class="showfilebox">
+
+                    <div class="left">
+
+                        <span class="filetype">pdf</span>
+                        <h3>html ebook.pdf</h3>
+
+                    </div>
+
+                    <div class="right">
+                        <span>&#215;</span>
+                    </div>
+
+
+                </div> -->
+
+                
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
